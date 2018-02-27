@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodiorange" name=".[COLOR orange]Kodi Orange Repo[/COLOR]" version="1.0.0" provider-name="peexpert">
+    <extension point="xbmc.addon.repository" name="Kodi Orange Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/peexpert/Kodi-Orange/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/peexpert/Kodi-Orange/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/peexpert/Kodi-Orange/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Essential Kodi Repo</summary>
+        <description>kodi orange official repo</description>
+        <platform>all</platform>
+    </extension>
+</addon>
