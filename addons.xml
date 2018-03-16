@@ -105,53 +105,6 @@
 	</extension>
 </addon>
 
-<!---IPTV Pro---->
-<addon id="plugin.video.jbiptvpro" name="Jesus Box IPTV Pro" version="4.3.72" provider-name="JesusBox">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common"/>
-    <import addon="script.module.pyxbmct"  />
-    <import addon="script.module.requests"/>
-    <import addon="script.module.dateutil"/>
-
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource"
-            library="init.py">
-        <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py" start="login"></extension>
-  <!--<extension point="xbmc.service" library="playMonitor.py" start="login"></extension>-->
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Jesus Box IPTV Pro</summary>
-	<description lang="en">Best IPTV solution for Kodi. Watch over 500+ High quality channels, TV Guide, Sports, PPV, 1 account up to 5 connections.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<!---IPTV---->
-<addon id="plugin.video.jesusboxiptv" name="JesusBox IPTV" version="1.0.3" provider-name="JesusBox">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">JesusBox IPTV</summary>
-    <website>http://www.jesusboxtv.com/</website>
-    <description lang="en">Watch over 1500 premium Live tv. No buffering, No kicking out. Channels from all over the world. USA, UK, ASIA, AFRICA and more.</description>
-    <forum></forum>
-    <email>Support@jesusboxmedia.tv</email>
-    <disclaimer lang="en"> This addon is regulated by General Public License:https://en.wikipedia.org/wiki/GNU_General_Public_License</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.jesusboxtv" name="Jesusbox Repository" version="1.0.5" provider-name="Jesusbox">
 	<extension point="xbmc.addon.repository" name="Jesusbox Repository">
 		<info compressed="false">https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml</info>
